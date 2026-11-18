@@ -1,0 +1,54 @@
+{
+  "schema": "mosaico-ideas/project-release/1",
+  "project": {
+    "title": "ASCII Christmas Tree",
+    "category_id": 29,
+    "content_type": "software",
+    "tags": [
+      "Christmas",
+      "ASCII"
+    ]
+  },
+  "firmware": "build/ascii_christmas_tree-system-update.irisfw",
+  "website": {
+    "readme": "README.md",
+    "changelog": "docs/ideas/CHANGELOG.md",
+    "covers": [
+      "docs/materials/overview_device.png"
+    ],
+    "resources": [
+      "docs/materials/animal_cat_black.png",
+      "docs/materials/animal_cat_black_white.png",
+      "docs/materials/animal_cat_coffee.png",
+      "docs/materials/animal_cat_gray.png",
+      "docs/materials/animal_groundhog.png",
+      "docs/materials/animal_rabbit.png",
+      "docs/materials/animal_reindeer.png",
+      "docs/materials/animal_squirrel.png",
+      "docs/materials/bauble.png",
+      "docs/materials/bell.png",
+      "docs/materials/blue_gift.png",
+      "docs/materials/bow.png",
+      "docs/materials/candy_cane.png",
+      "docs/materials/diamond.png",
+      "docs/materials/red_gift.png",
+      "docs/materials/stocking.png",
+      "docs/materials/volume_panel.png"
+    ]
+  },
+  "device": {
+    "default_locale": "zh-CN",
+    "presentations": {
+      "zh-CN": {
+        "name": "字符圣诞树",
+        "description": "拨动圣诞树，触摸挂饰和小动物，欣赏飘雪、音乐与灯光。",
+        "font": "docs/ideas/presentation.otf"
+      },
+      "en": {
+        "name": "ASCII Christmas Tree",
+        "description": "Rotate the tree and tap ornaments and snow animals. Enjoy snow, music and lights.",
+        "font": "components/app_hello/ui/fonts/DejaVuSans.ttf"
+      }
+    }
+  }
+}
